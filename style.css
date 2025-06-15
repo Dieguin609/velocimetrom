@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+#velocimetro {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #000;
+}
+
+.speed {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.unit {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icons img {
+  width: 28px;
+  height: 28px;
+  filter: brightness(1.2);
+}
